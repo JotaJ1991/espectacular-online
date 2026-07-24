@@ -50,9 +50,9 @@ python -m http.server 8000
 - **Metadata "ahora suena":** constante `META` (endpoint de Zeno.fm).
 - **URL del sitio:** reemplaza `__SITE_URL__` (en las meta/canonical/OG) por tu dominio real.
 
-## 📝 Nota sobre la imagen social
+## 🖼️ Imagen (hero + social)
 
-`assets/og-image.svg` funciona en la mayoría de plataformas. **WhatsApp no renderiza SVG**; para previsualización con imagen ahí, exporta esa tarjeta a **PNG 1200×630** (`assets/og-image.png`) y actualiza las etiquetas `og:image` / `twitter:image`.
+El banner oficial de la emisora (`assets/banner.jpg`, 1200×480) se usa como **imagen principal** de la portada y como **imagen social** (`og:image` / `twitter:image`). Es un **JPEG optimizado (~162 KB)**, por debajo del límite de ~300 KB de WhatsApp, así que la previsualización del enlace sí muestra imagen al compartirlo.
 
 ---
 
